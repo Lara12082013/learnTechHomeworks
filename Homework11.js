@@ -107,4 +107,4 @@ arr = [
    
 ]
 
-let newArr = arr.filter(el => el.gender === "female").sort((a,b) => a.age - b.age)
+let newArr = arr.filter(el => el.gender === "female").sort((a,b) => a.age - b.age).map(el => el.name)
